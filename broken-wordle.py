@@ -2,8 +2,8 @@ import random
 
 WORDLEN = 5;
 
-g = ""
 
+g = ""
 def give_question():
     with open("solution.txt") as f:
         s = f.readlines()
